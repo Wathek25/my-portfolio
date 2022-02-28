@@ -16,7 +16,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 // ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section id="certificates">
     <SectionTitle>Certificates</SectionTitle>
     <Boxes>
       {/* {data.map((card, index) => ( */}

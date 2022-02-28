@@ -34,7 +34,7 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    <Div2 style={{ marginLeft: "100px" }}>
+    <Div2>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -48,6 +48,16 @@ const Header = () => (
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#certificates">
+          <NavLink>Certificates</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>

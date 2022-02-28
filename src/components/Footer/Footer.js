@@ -6,11 +6,7 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
-import {
-  Section,
-  SectionTitle,
-  SectionDivider,
-} from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -28,7 +24,7 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <Section>
+      <Section id="contact">
         <SectionTitle style={{ marginLeft: "-30px", marginTop: "-12px" }}>
           Contact
         </SectionTitle>
@@ -36,13 +32,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>PHONE</LinkTitle>
-          <LinkItem href="tel:314-343-3432">+216 54 427 262</LinkItem>
+          <LinkItem>+216 54 427 262</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:wathek.ghenimi1@gmail.com">
-            wathek.ghenimi1@gmail.com
-          </LinkItem>
+          <LinkItem>wathek.ghenimi1@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
