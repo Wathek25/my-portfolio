@@ -6,7 +6,6 @@ import {
   AiFillLinkedin,
   AiFillBehanceCircle,
 } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
 
 import {
   Container,
@@ -28,13 +27,14 @@ const Header = () => (
             alignItems: "center",
             color: "white",
             marginBottom: "20px",
+            marginLeft: "80px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Wathek Ghenimi</Span>
+          <Span>Wathek Ghenimi</Span>
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 style={{ marginLeft: "100px" }}>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>

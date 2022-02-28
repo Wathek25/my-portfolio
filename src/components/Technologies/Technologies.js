@@ -1,5 +1,17 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  DiFirebase,
+  DiReact,
+  DiZend,
+  DiBootstrap,
+  DiJavascript,
+  DiNodejsSmall,
+  DiMongodb,
+  DiMsqlServer,
+} from "react-icons/di";
+import { FiServer } from "react-icons/fi";
+import { SiMicrosoftsqlserver, SiMaterialdesign } from "react-icons/si";
+import { TiHtml5, TiCss3 } from "react-icons/ti";
 import {
   Section,
   SectionDivider,
@@ -25,13 +37,38 @@ const Technologies = () => (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiZend size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with:
+            <br />
+            <TiHtml5 size="2.2rem" />
+            HTML5 <br />
+            <TiCss3 size="2.2rem" />
+            CSS3 <br />
+            <DiBootstrap size="2.2rem" />
+            Bootsrap5 <br />
+            <SiMaterialdesign size="2rem" />
+            Material UI <br />
+            <DiJavascript size="2.2rem" />
+            JavaScript <br />
+            <DiReact size="2.2rem" />
+            ReactJS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FiServer size="2.8rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with: <br />
+            <DiNodejsSmall size="2.2rem" /> NodeJS <br />
+            <DiNodejsSmall size="2.2rem" /> ExpressJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,22 +77,13 @@ const Technologies = () => (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Databases</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experience with: <br />
+            <DiMongodb size="2.2rem" />
+            MongoDB <br />
+            <SiMicrosoftsqlserver size="2.2rem" />
+            Microsoft SQL Server
           </ListParagraph>
         </ListContainer>
       </ListItem>

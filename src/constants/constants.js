@@ -1,40 +1,44 @@
 export const projects = [
   {
-    title: "E-Commerce : village artisanale denden - MERN",
+    title: "E-Commerce: village artisanale denden",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/villageartdenden.png",
-    tags: ["Mongo", "Express", "React", "Node", "Redux", "Axios"],
+      "It's a MERN Stack e-commerce website that allows  the craftsmen of the (village artisanale denden) located in Manouba-Denden to add and sell their products. Note: it was my end of studies' project and i've liked to rebuilding it completly with the MERN Stack technologies. ",
+    image:
+      "https://res.cloudinary.com/dbc5f1w2q/image/upload/v1646008531/Project%20:%20Portfolio/Projects/villageartdenden_nu12me.png",
+    tags: ["MongoDB", "Express", "ReactJS", "NodeJS", "Redux", "Axios"],
     source: "https://github.com/Wathek25/MERN_ARTISANAT_DENDEN",
     visit: "https://villageartdenden.herokuapp.com/",
     id: 0,
   },
   {
-    title: "Your Story Blog - MERN",
+    title: "Blog: Your Story",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive , e-commerce applications are impressive , e-commerce applications are impressive.",
-    image: "/images/yourstory.png",
-    tags: ["React", "JavaScript"],
+      "It's a MERN Stack Blog website that allows users to post articles related to many topics such as (Technology, Education, Life, Entrepreneurship...) with the ability to modify them at any time. Each articles can be fetched according to the author or to the category.",
+    image:
+      "https://res.cloudinary.com/dbc5f1w2q/image/upload/v1646008535/Project%20:%20Portfolio/Projects/yourstory_rbsjht.png",
+    tags: ["MongoDB", "Express", "ReactJS", "NodeJS", "Context API"],
     source: "https://github.com/Wathek25/yourstoryblog-MERN",
     visit: "https://yourstoryblog.herokuapp.com/",
     id: 1,
   },
   {
-    title: "Happy Recipe API - Ract API",
+    title: "Ract API: Happy Recipe",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/happyrecipe.png",
-    tags: ["React", "WebRTC"],
+      "It's a website built with ReactJS to provide a well designed and organized collections of recipes, plus a semantic recipe search. All the data are fetched from the mealdb Api.",
+    image:
+      "https://res.cloudinary.com/dbc5f1w2q/image/upload/v1646008529/Project%20:%20Portfolio/Projects/happyrecipe_p7ocyk.png",
+    tags: ["ReactJS", "React router & hooks", "Axios"],
     source: "https://github.com/Wathek25/Happy-Recipe-React-API",
     visit: "https://happyrecipe.herokuapp.com/",
     id: 2,
   },
   {
-    title: "My Movies List - ReactJS",
+    title: "ReactJS : My Movies List",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/mymovieslist.png",
-    tags: ["React", "ChatEngine", "Firebase"],
+      "It's a ReactJS website that allows you adding your favorites movies to a list with the ability to search with ratings.",
+    image:
+      "https://res.cloudinary.com/dbc5f1w2q/image/upload/v1646008464/Project%20:%20Portfolio/Projects/mymovieslist_ip8q4x.png",
+    tags: ["ReactJS", "React router & hooks"],
     source: "https://github.com/Wathek25/Movielist-ReactJS",
     visit: "https://my-movies-list1.herokuapp.com/",
     id: 3,
@@ -42,9 +46,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2014, text: "Baccalaureate Degree: High School of Ain Drahem" },
+  { year: 2017, text: "License in Networks and IT services: ISET Beja" },
+  { year: 2020, text: "Master in E-Business: ESEN Manouba" },
+  { year: 2021, text: "Full stack JavaScript Bootcamp: Gomycode Tunisia" },
 ];

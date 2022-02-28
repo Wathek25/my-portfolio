@@ -99,7 +99,7 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 0.8rem;
 `;
 export const Tag = styled.li`
   color: #d8bfbf;
