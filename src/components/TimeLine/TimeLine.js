@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        My name is Wathek Ghenimi and i'm a full stack javascript developer. My
+        My name is Wathek Ghenimi and i'm a full stack web developer. My
         interest in web development started back in 2019 when I organized a
         hackathon with the joker esen club. I'm passionate about building things
         that brings benefits and values for others, I learn a lot by myself and
