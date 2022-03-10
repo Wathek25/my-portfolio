@@ -59,7 +59,7 @@ const Technologies = () => (
             <DiJavascript size="2.2rem" />
             JavaScript <br />
             <DiReact size="2.2rem" />
-            ReactJS
+            ReactJS <br />
             <SiRedux size="2.2rem" />
             Redux
           </ListParagraph>
