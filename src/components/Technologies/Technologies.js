@@ -10,7 +10,11 @@ import {
   DiMsqlServer,
 } from "react-icons/di";
 import { FiServer } from "react-icons/fi";
-import { SiMicrosoftsqlserver, SiMaterialdesign } from "react-icons/si";
+import {
+  SiMicrosoftsqlserver,
+  SiMaterialdesign,
+  SiRedux,
+} from "react-icons/si";
 import { TiHtml5, TiCss3 } from "react-icons/ti";
 import {
   Section,
@@ -56,6 +60,8 @@ const Technologies = () => (
             JavaScript <br />
             <DiReact size="2.2rem" />
             ReactJS
+            <SiRedux size="2.2rem" />
+            Redux
           </ListParagraph>
         </ListContainer>
       </ListItem>
