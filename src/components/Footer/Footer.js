@@ -49,7 +49,7 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons
             target="_blank"
-            href="https://www.linkedin.com/in/wathek-ghenimi-14b588172/"
+            href="https://www.linkedin.com/in/wathek-ghenimi/"
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
