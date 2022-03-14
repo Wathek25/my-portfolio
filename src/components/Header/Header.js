@@ -73,7 +73,7 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons
         target="_blank"
-        href="https://www.behance.net/wathekghen7a63"
+        href="https://www.behance.net/wathekghen7a63/"
       >
         <AiFillBehanceCircle size="3rem" />
       </SocialIcons>
